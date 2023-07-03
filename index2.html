@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY GAME</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        body{
+       /**    background-image: url(image/FIRING.jpg); **/
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            text-align: center;
+  }
+  .back{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .back2{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
+  }
+  #js_timer {
+  text-align: center;
+}
+#timer{
+  background: #fff;
+  color: #000;
+  width: 100px;
+  margin: 50px auto;
+}
+@media all and (orientation:portrait) {
+    body {
+      background-image: url(image/FIRING.jpg);
+      }
+  } 
+        
+  .clasa{
+    display: none;
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+  .over{
+    font-size: 100px;
+  }
+  .restart{
+    font-size: 20px;
+    border: 1px solid #00BFFF;
+    border-radius: 10px;
+    background-color: #00BFFF;
+    height: 50px;
+    width: 160px;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+  
+  }
+  .restart:hover {
+    font-size: 20px;
+    border: 1px solid #00BFFF;
+    border-radius: 10px;
+    background-color: #00BFFF;
+    box-shadow: 0px 3px 3px 3px #DADBDD;
+    height: 48px;
+    width: 158px;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+  }
+    </style>
+</head>
+<body id="body" onclick="playna()">
+<!-- <div class="menu" id="menu">
+    <h1 class="title">Beng Beng Game</h1>
+    <button class="startBtn" onclick="main()">EASY!!</button> 
+   <button class="Easy" id="easy" onclick="easy()">EASY</button> 
+    <button class="Medium"></button>
+    <button class="Hard"></button>
+    </div> -->
+
+   <div class="container" id="easyround">
+     <button class="startBtn" onclick="main()">START</button>
+  
+
+    <img class="cursor" src="image/CROSSHAIR.png" alt="" id="crossv1">
+    <img class="blood" src="image/bloodv2real.png" alt="">
+    <img  class="back" src="image/FIRING.jpg" alt="" id="map1">
+    
+  
+
+ 
+
+  
+<p id="countdown"></p>
+
+   </div>
+    
+   <div class="clasa" id="clasa">
+   <!-- <h1>HELLO CRUSH</h1> -->
+    <h1 class="over">GAME OVER</h1>
+
+    <button class="restart" onclick="restart()">RESTART</button>
+   </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

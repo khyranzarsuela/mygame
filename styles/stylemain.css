@@ -1,0 +1,459 @@
+.menu{
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: 1;
+background-image: linear-gradient(to left, #8debff, #6CACFF);
+}
+@media all and (orientation:portrait) {
+    .menu{
+        position: absolute;
+        height: 110%;
+        width: 380px;
+        z-index: 1;
+        background-image: linear-gradient(to left, #8debff, #6CACFF);
+        }
+
+}
+.Easy{
+position: absolute;
+font-family: 'Rowdies', cursive;
+font-size: 20px;
+height: 50px;
+width: 150px;
+top:30%;
+left: 60%;
+cursor: pointer;
+transition: .5s ease;
+background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+ border-color: rgba(255, 255, 255, .15); 
+ border-radius: 10px;
+}
+@media all and (orientation:portrait){
+    .Easy{
+        position: absolute;
+        font-family: 'Rowdies', cursive;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+        top:30%;
+        left: 30%;
+        cursor: pointer;
+        transition: .5s ease;
+        background-color: rgba(255, 255, 255, .15);  
+         backdrop-filter: blur(5px);
+         border-color: rgba(255, 255, 255, .15); 
+         border-radius: 10px;
+        }
+}
+.Easy:hover{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    top:30%;
+    left: 60%;
+    cursor: pointer;
+    transition: .5s ease;
+    background-color: rgba(135, 133, 133, 0.562);  
+     backdrop-filter: blur(5px);
+     border-color: rgba(255, 255, 255, .15); 
+     border-radius: 10px;
+    }
+    @media screen and (orientation:portrait){
+        .Easy:hover{
+            position: absolute;
+            font-family: 'Rowdies', cursive;
+            font-size: 20px;
+            height: 50px;
+            width: 150px;
+            top:30%;
+            left: 30%;
+            cursor: pointer;
+            transition: .5s ease;
+            background-color: rgba(135, 133, 133, 0.562);  
+             backdrop-filter: blur(5px);
+             border-color: rgba(255, 255, 255, .15); 
+             border-radius: 10px;
+            }
+    }
+.Medium{
+position: absolute;
+font-family: 'Rowdies', cursive;
+font-size: 20px;
+height: 50px;
+width: 150px;
+top: 40%;
+left: 60%;
+cursor: pointer;
+transition: .5s ease;
+background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+ border-color: rgba(255, 255, 255, .15); 
+ border-radius: 10px;
+}
+@media all and (orientation:portrait){
+    .Medium{
+        position: absolute;
+        font-family: 'Rowdies', cursive;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+        top: 40%;
+        left: 30%;
+        cursor: pointer;
+        transition: .5s ease;
+        background-color: rgba(255, 255, 255, .15);  
+         backdrop-filter: blur(5px);
+         border-color: rgba(255, 255, 255, .15); 
+         border-radius: 10px;
+        }
+}
+.Medium:hover{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    top: 40%;
+    left: 60%;
+    cursor: pointer;
+    transition: .5s ease;
+    background-color: rgba(135, 133, 133, 0.562);  
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, .15); 
+    border-radius: 10px;
+    }
+    @media screen and (orientation:portrait){
+        .Medium:hover{
+            position: absolute;
+            font-family: 'Rowdies', cursive;
+            font-size: 20px;
+            height: 50px;
+            width: 150px;
+            top: 40%;
+            left: 30%;
+            cursor: pointer;
+            transition: .5s ease;
+            background-color: rgba(135, 133, 133, 0.562);  
+            backdrop-filter: blur(5px);
+            border-color: rgba(255, 255, 255, .15); 
+            border-radius: 10px;
+            }
+    }
+.Hard{
+position: absolute;
+font-family: 'Rowdies', cursive;
+font-size: 20px;
+height: 50px;
+width: 150px;
+top: 50%;
+left: 60%;
+cursor: pointer;
+transition: .5s ease;
+background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+ border-color: rgba(255, 255, 255, .15); 
+ border-radius: 10px;
+}
+@media all and (orientation:portrait){
+    .Hard{
+        position: absolute;
+        font-family: 'Rowdies', cursive;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+        top: 50%;
+        left: 30%;
+        cursor: pointer;
+        transition: .5s ease;
+        background-color: rgba(255, 255, 255, .15);  
+         backdrop-filter: blur(5px);
+         border-color: rgba(255, 255, 255, .15); 
+         border-radius: 10px;
+        }
+}
+
+.Hard:hover{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    top: 50%;
+    left: 60%;
+    cursor: pointer;
+    transition: .5s ease;
+    background-color: rgba(135, 133, 133, 0.562);  
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, .15); 
+    border-radius: 10px;
+    }
+    @media screen and (orientation:portrait){
+        .Hard:hover{
+            position: absolute;
+            font-family: 'Rowdies', cursive;
+            font-size: 20px;
+            height: 50px;
+            width: 150px;
+            top: 50%;
+            left: 30%;
+            cursor: pointer;
+            transition: .5s ease;
+            background-color: rgba(135, 133, 133, 0.562);  
+            backdrop-filter: blur(5px);
+            border-color: rgba(255, 255, 255, .15); 
+            border-radius: 10px;
+            }
+    }
+.title{
+position: absolute;
+font-family: 'Rowdies', cursive;
+top: 20%;
+left: 20%;
+}
+.fire{
+    position: absolute;
+    top: 66%;
+    height: 200px;
+    width: 300px;
+}
+.menu1{
+    position: absolute;
+    height: 50%;
+    top: 0px;
+    left: 37%;
+}
+@media all and (orientation:portrait){
+    .menu1{
+        position: absolute;
+        height: 5%;
+        top: 0px;
+        left: 20%;
+    }
+}
+.menu2{
+    position: absolute;
+    transform: scaleX(-1);
+    height: 20%;
+    top: 70%;
+    left: 60%;
+}
+@media all and (orientation:portrait){
+    .menu2{
+        position: absolute;
+        transform: scaleX(-1);
+        height: 5%;
+        top: 70%;
+        left: 30%;
+    }
+}
+.pindot{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #8debff, #6CACFF);
+    position: absolute;
+    opacity: 100%;
+    z-index: 30;
+}
+@media screen and (orientation:portrait) {
+    .pindot{
+        height: 110%;
+        width: 380px;
+  background-image: linear-gradient(to left, #8debff, #6CACFF);
+    position: absolute;
+    opacity: 100%;
+    z-index: 30;
+}
+}
+.click{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    height: 50px;
+    width: 120px;
+    top: 70%;
+    left: 45%;
+    opacity: 100%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+ border-color: rgba(255, 255, 255, .15); 
+ border-radius: 10px;
+ transition: .5s ease;
+}
+
+@media screen and (orientation:portrait){
+    .click{
+        position: absolute;
+        font-family: 'Rowdies', cursive;
+        height: 50px;
+        width: 120px;
+        top: 70%;
+        left: 30%;
+        opacity: 100%;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .15);  
+     backdrop-filter: blur(5px);
+     border-color: rgba(255, 255, 255, .15); 
+     border-radius: 10px;
+     transition: .5s ease;
+    }
+}
+
+.click:hover{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    top: 70%;
+    left: 45%;
+    opacity: 100%;
+    cursor: pointer;
+    transition: .5s ease;
+    background-color: rgba(135, 133, 133, 0.562);  
+ backdrop-filter: blur(5px);
+ border-color: rgba(255, 255, 255, .15); 
+ border-radius: 10px;
+}
+@keyframes show{
+  0%{opacity: 0%; transform: translateY(0%);}
+  50%{opacity: 100%; transform: translateY(-40%);}
+  100%{opacity: 0%; transform: translateY(0%);}
+}
+
+
+@keyframes ekk{
+    0%{opacity: 0%; left: 80%;}
+    100%{opacity: 100%; left: 60%;}
+
+}
+
+@keyframes ekk2{
+    0%{opacity: 0%; left: 80%;}
+    100%{opacity: 100%; left: 60%;}
+
+}
+
+@keyframes ekk3{
+    0%{opacity: 0%; left: 80%;}
+    100%{opacity: 100%; left: 60%;}
+
+}
+
+@media screen and (orientation:portrait) {
+    @keyframes ekk{
+        0%{opacity: 0%; left: 80%;}
+        100%{opacity: 100%; left: 35%;}
+    
+    }
+    
+    @keyframes ekk2{
+        0%{opacity: 0%; left: 80%;}
+        100%{opacity: 100%; left: 35%;}
+    
+    }
+    
+    @keyframes ekk3{
+        0%{opacity: 0%; left: 80%;}
+        100%{opacity: 100%; left: 35%;}
+    
+    }
+}
+
+/**LOAD**/
+.loader{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.loading{
+    animation: goload 5s ease;
+  }
+  @keyframes goload{
+    from{opacity: 100%;}
+    to{opacity: 0%; display: none;}
+  }
+.box{
+    font-family: 'Thasadith', sans-serif;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, .15); 
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    padding: 15px;
+    animation: box1 2s ease;
+}
+@keyframes box1 {
+    0%{top: 20%; opacity: 0%;}
+    50%{top: 10%; opacity: 100%;}
+    100%{opacity: 100%;}
+}
+.mech{
+    text-align: center;
+}
+.para{
+    font-size: 15px;
+}
+@media screen and (orientation:portrait) {
+    .para{
+        font-size: 10px;
+    }
+}
+.box2{
+    font-family: 'Thasadith', sans-serif;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, .15); 
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    text-align: justify;
+    padding: 10px;
+    animation: box1 2s ease;
+}
+@media screen and (orientation:portrait) {
+    .box2{
+        font-family: 'Thasadith', sans-serif;
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(5px);
+        border-color: rgba(255, 255, 255, .15); 
+        border-radius: 10px;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        text-align: justify;
+        padding: 0px;
+        animation: resbox2 2s ease;
+    }
+    @keyframes resbox2 {
+        0%{top: 60%; opacity: 0%;}
+        50%{top: 40%; opacity: 100%;}
+        100%{opacity: 100%;}
+    }
+}
+@keyframes box2 {
+    0%{top: 60%; opacity: 0%;}
+    50%{top: 50%; opacity: 100%;}
+    100%{opacity: 100%;}
+}
+.rewards{
+    text-align: center;
+}
+td{
+    padding: 5px;
+
+}
+
+@media screen and (orientation:portrait){
+    td{
+        padding: 0px;
+    }
+    table{
+        font-size: 10px;
+    }
+}

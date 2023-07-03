@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: none;
+  }
+  
+ /** body {
+  background-image: url("image/FIRING.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+ @media screen and(orientation:portrait) {
+    body {
+        background-image: url("image/FIRING.png");
+        text-align: center;
+      }
+  } **/
+  .container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  @media screen and (orientation:portrait) {
+    .container {
+      position: relative;
+      height: 100%;
+      
+    }
+  }
+  
+.startBtn {
+    position: absolute;
+    top: 10px;
+    left: 43%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, .15); 
+    padding: 15px 45px;
+    font-size: 1.1rem;
+    margin-top: 3em;
+    outline: none;
+    cursor: none;
+    border-radius: 10px;
+    transition: .8s ease;
+    animation: dash 1s ease;
+  }
+  @keyframes dash{
+    from{opacity: 0%; top: 0px;}
+    to{opacity: 100%;}
+  }
+  .startBtn:hover {
+    position: absolute;
+   border-radius: 30px;
+   transition: .8s ease;
+  }
+@media screen and (orientation:portrait) {
+    .startBtn {
+       height: 120px;
+       width: auto;
+       background-color: blue;
+      }
+  } 
+  .blood {
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  @media screen and (orientation:portrait) {
+    .blood {
+      position: absolute;
+      height: 100px;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+  }
+  
+  .terrorist {
+    height: 100px;
+  }
+  
+  img::selection {
+    background: transparent;
+  }
+  
+ 
+  .cursor {
+    position: absolute;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: 0.3s transform ease;
+    transform-origin: 100% 100%;
+  }
+  @media screen and (orientation:portrait) {
+  .cursor {
+    position: absolute;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: 0.3s transform ease;
+    transform-origin: 100% 100%;
+  }
+}
+
+p{
+  position: absolute;
+  top: 0px;
+  left: 47%;
+  font-size: 50px;
+}

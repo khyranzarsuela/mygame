@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+
+        background-image: linear-gradient(to left, black, pink);
+
+    }
+button{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    border-radius: 10px;
+}
+input{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    border-radius: 10px;
+}
+</style>
+<body>
+<input type="text" name="" id="input">
+<button onclick="myfunction()">ENTER</button>
+    <p id="demo"></p>
+
+
+    <script>
+    /**    function myfunction(){
+            const fruits = ["BANANA", "APPLE", "ORANGE", "GRAPES"];
+          var input = document.getElementById('input').value;
+          var txt="";
+            let i, len, text;
+            for (i = 0, len = fruits.length, text = ""; i < len; i++) {
+           switch (input){
+            case "BANANA":
+            text += fruits[i] + "<br>";
+            break;
+
+            default:
+                txt="ekk";
+
+           }
+}
+document.getElementById("demo").innerHTML = text;
+        }
+        **/
+
+        function myfunction(){
+            var input = document.getElementById('input').value;
+            var txt="";
+
+            switch(input){
+                case "A":
+            txt="YOUR ANSWER IS CORRECT", document.getElementById('demo').style.color="green";
+            break;
+
+            case "B":
+            txt="YOUR ANSWER IS NOT CORRECT", document.getElementById('demo').style.color="red";
+            break;
+
+            case "C":
+            txt="YOUR ANSWER IS NOT CORRECT", document.getElementById('demo').style.color="red";
+            break;
+            
+            case "D":
+            txt="YOUR ANSWER IS NOT CORRECT", document.getElementById('demo').style.color="red";
+            break;
+
+            default:
+                txt="INVALID" , document.getElementById('demo').style.color="red";
+
+            }
+            document.getElementById('demo').innerHTML=txt;
+
+        }
+    </script>
+</body>
+</html>

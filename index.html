@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigger Time Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&family=Rowdies:wght@300&family=Thasadith:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/stylemain.css">
+  
+  <style>
+    body{
+    margin: 0px;
+  }
+  @media all and (orientation:portrait) {
+    body{
+    margin: 0px;
+  }
+}
+  </style>
+</head>
+<body onclick="audio.play()">
+
+  <div class="pindot" id="load">
+    <div class="box">
+      <h3 class="mech">MECHANICS OF THE GAME</h3>
+      <p class="para">1. One tap at the time - meaning tap per attack. Dont spam it. <br>
+        2. There will be 1 minute to play the game in any modes. <br>
+        3. EASY mode is 1 point score. <br>
+        4. MEDIUM mode is 2 point score. <br>
+        5. HARD mode is 5 point score.
+      </p>
+    </div>
+    <div class="box2">
+      <h3 class="rewards">REWARDS</h3>
+      <table>
+        <tr>
+          <td>
+            <p class="para2">In the Easy mode: <br>  20 scores: 1 ballpen <br>
+              35 scores: 2 ballpens <br> 50 scores: 1/4 sheet of paper <br>
+          </td>
+          <td>
+            <p class="para3"> In the Medium mode: <br> 20: 2 ballpens <br> 40 scores: 1 Padpaper<br>
+              60 socres: 1 Notebook <br></p>
+          </td>
+          <td>
+            In the Hard mode: <br> 5 scores: 3 ballpens </p>
+          </td>
+        </tr>
+      </table>
+  
+
+    </div>
+         <button class="click" onclick="laro()">CLICK TO ENTER</button>
+  </div>
+  
+  <div class="menu" id="menu">
+    <img class="menu1" src="image/m4.gif" alt="">
+    <img class="menu2" src="image/snipe.gif" alt="">
+    <audio src="bgsong.mp3" id="bgsong" loop="loop"></audio>
+    <img class="fire" src="image/gamemenu1.gif" alt="">
+    <h1 class="title">Trigger Time Game</h1>
+ <!--   <button class="startBtn" onclick="main()">EASY!!</button> -->
+ <button class="Easy" onclick="easy()" id="easy">EASY</button>
+ <button class="Medium" onclick="medium()" id="medium">MEDIUM</button>
+ <button class="Hard" onclick="hard()" id="hard">HARD</button>
+
+    </div>
+
+    <script>
+      function easy(){
+        location.href="index2.html";
+      }
+
+      function medium(){
+        location.href="index3.html";
+      }
+
+      function hard(){
+        location.href="index4.html";
+      }
+    
+      const audio = new Audio();
+      audio.src = "bgsong.mp3";
+
+      function laro(){
+        var load=document.getElementById('load');
+        var eas=document.getElementById('easy');
+        var med=document.getElementById('medium');
+        var har=document.getElementById('hard');
+
+        load.style.display="none";
+        eas.style.animation="ekk 3s"
+        med.style.animation="ekk2 4s"
+        har.style.animation="ekk3 5s"
+      }
+    </script>
+</body>
+</html>
